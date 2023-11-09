@@ -5,13 +5,12 @@ defineProps({
   msg: String,
 })
 
-const count = ref(0)
 </script>
 
 <template>
  <div class="row justify-content-center mt-4">
     <div class="card insidecard">
-
+      {{ msg }}
     </div>
  </div>
 </template>

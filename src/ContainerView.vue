@@ -10,7 +10,7 @@ const count = ref(0)
 
 <template>
     <div clas="container contain">
-        <div class="row mt-4 justify-content-center">{props.children}</div>
+        <div class="row mt-4 justify-content-center"></div>
     </div>
 </template>
 
