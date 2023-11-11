@@ -8,14 +8,14 @@ defineProps({
 </script>
 
 <template>
- <div class="row justify-content-center mt-4">
-    <div class="card insidecard">
-      {{ msg }}
+ <div class="justify-content-center mt-4">
+    <div class="card insidecard ">
+      <slot />
     </div>
  </div>
 </template>
 
-<style scoped>
+<style>
 .insidcar {
   width: "18rem"
 }

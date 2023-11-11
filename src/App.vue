@@ -5,14 +5,12 @@ import HeaderView from './HeaderView.vue'
 </script>
 
 <template>
-  <div clas="container contain">
-    <div class="row mt-4 justify-content-center">
+  <ContainerView>
       <HeaderView />
-        <Card msg="Vite + Vue" />
-    </div>
-  </div>
+      <Card msg="Vite + Vue"/>
+  </ContainerView>
   
 </template>
 
-<style scoped>
+<style>
 </style>

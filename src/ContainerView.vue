@@ -10,10 +10,12 @@ const count = ref(0)
 
 <template>
     <div clas="container contain">
-        <div class="row mt-4 justify-content-center"></div>
+        <div class="mt-4 justify-content-center">
+          <slot />
+        </div>
     </div>
 </template>
 
-<style scoped>
+<style>
 
 </style>

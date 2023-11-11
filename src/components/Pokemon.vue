@@ -11,12 +11,12 @@ const count = ref(0)
 <template>
    <Card>
       <img
-        className="card-img-top"
+        class="card-img-top"
         id="photo"
         src={props.Pokemon.photo}
         alt="Card"
       />
-      <div className="card-body">
+      <div class="card-body">
         <h5 id="label" className="card-title">
           {props.Pokemon.label}
         </h5>
@@ -29,7 +29,7 @@ const count = ref(0)
     </Card>
 </template>
 
-<style scoped>
+<style>
 .insidcar {
   width: "18rem"
 }
